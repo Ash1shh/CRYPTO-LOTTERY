@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = () => {
                     <img
                         src="https://c.tenor.com/zyUn_DgNXyUAAAAd/eth-etherum.gif"
                         alt=""
-                        className="rounded-full h-20 w-20"
+                        className="rounded-full h-20 w-20 filter -hue-rotate-60 opacity-50 hover:opacity-100 hover:hue-rotate-0 hover:filter-none"
                     />
 
                     <div>
@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex md:col-span-3 items-center justify-center">
-                    <div className="p-4 space-x-2">
+                    <div className="p-4 space-x-2 bg-[#0A1F1C]">
                         <NavButton isActive title="Buy Ticket" />
                         <NavButton onClick={disconnect} title="Log Out" />
                     </div>

@@ -4,10 +4,10 @@
 
 @layer components {
   .stats {
-    @apply text-white p-4 flex-1 rounded-md bg-[#1b2735] border-[#090a0f] border-2;
+    @apply text-white p-4 flex-1 rounded-md bg-[#091F1C] border-[#004337] border-2;
   }
   .stats-container {
-    @apply bg-[#1b2735] p-5 rounded-lg border-[#090a0f] border flex-1;
+    @apply bg-[#091F1C] p-5 rounded-lg border-[#004337] border;
   }
 
   .countdown {
@@ -19,6 +19,6 @@
   }
 
   .adminButton {
-    @apply bg-[#091F1c] p-2 flex-1 rounded-md border-[#004337] border-2 hover:bg-emerald-500/50;
+    @apply bg-[#091F1C] p-3 flex-1 rounded-md border-[#004337] border-2 hover:bg-emerald-500/50;
   }
 }
